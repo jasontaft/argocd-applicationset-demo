@@ -1,7 +1,29 @@
 [{
   "tenant": {
     "owner": "phillip.price@ecorp.com",
-    "name": "jason",
+    "name": "ecorp-dev",
+    "id": "ecorp"
+  },
+  "k8s_cluster": {
+    "owner": "admin@company.com",
+    "address": "https://kubernetes.default.svc",
+    "namespace": "argocd"
+  }
+},{
+  "tenant": {
+    "owner": "phillip.price@ecorp.com",
+    "name": "ecorp-dev3",
+    "id": "ecorp"
+  },
+  "k8s_cluster": {
+    "owner": "admin@company.com",
+    "address": "https://kubernetes.default.svc",
+    "namespace": "argocd"
+  }
+},{
+  "tenant": {
+    "owner": "phillip.price@ecorp.com",
+    "name": "ecorp-uat",
     "id": "ecorp"
   },
   "k8s_cluster": {
@@ -13,7 +35,7 @@
 {
   "tenant": {
     "owner": "phillip.price@ecorp.com",
-    "name": "ecorp",
+    "name": "ecorp-stage30",
     "id": "ecorp"
   },
   "k8s_cluster": {

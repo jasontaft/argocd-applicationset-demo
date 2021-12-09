@@ -1,4 +1,4 @@
-[{
+{
   "tenant": {
     "owner": "phillip.price@ecorp.com",
     "name": "E Corp",
@@ -9,16 +9,4 @@
     "address": "https://kubernetes.default.svc",
     "namespace": "argocd"
   }
-},
- {
-  "tenant": {
-    "owner": "phillip.price@ecorp.com",
-    "name": "Jason",
-    "id": "jason"
-  },
-  "k8s_cluster": {
-    "owner": "admin@company.com",
-    "address": "https://kubernetes.default.svc",
-    "namespace": "argocd"
-  }
-}]
+}

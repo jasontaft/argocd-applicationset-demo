@@ -11,7 +11,7 @@ spec:
           - path: "argocd/tenants-discovery/**/config.json"
   template:
     metadata:
-      name: '{{tenant.id}}'
+      name: '{{tenant.name}}'
     spec:
       project: default
       source:

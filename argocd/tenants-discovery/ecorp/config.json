@@ -1,7 +1,7 @@
 [{
   "tenant": {
     "owner": "phillip.price@ecorp.com",
-    "name": "Jason",
+    "name": "jason",
     "id": "ecorp"
   },
   "k8s_cluster": {
